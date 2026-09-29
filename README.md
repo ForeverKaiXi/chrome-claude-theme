@@ -32,10 +32,6 @@ Two restrained variants for the same browser mood: **Paper** for daylight readin
   </tr>
 </table>
 
-<p align="center">
-  <img src="./demo-mobile.png" alt="Responsive mobile preview of the visual demo" width="72%">
-</p>
-
 ## Download the themes
 
 The current release is <strong>1.0.2</strong>. Each package is a self-contained Chrome theme ZIP with a root-level <code>manifest.json</code>.
