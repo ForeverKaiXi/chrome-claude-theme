@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Drag and drop icon">
+  <rect x="7" y="12" width="30" height="39" rx="5" fill="#E8E3DA" stroke="#6B665C" stroke-width="2"/>
+  <path d="M17 23h11M17 30h11M17 37h7" stroke="#DA7756" stroke-width="3" stroke-linecap="round"/>
+  <path d="M32 43h15M41 34l9 9-9 9" fill="none" stroke="#DA7756" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="42" y="15" width="14" height="20" rx="3" fill="#302E29"/>
+  <path d="M46 21h6M46 26h6M46 31h4" stroke="#F5F3EE" stroke-width="2" stroke-linecap="round"/>
+</svg>

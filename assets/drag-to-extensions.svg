@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 190" role="img" aria-labelledby="title desc">
+  <title id="title">Drag a ZIP to Chrome Extensions</title>
+  <desc id="desc">A simple three-step line illustration: download a ZIP, open chrome://extensions, then drag the ZIP onto the page.</desc>
+  <rect width="720" height="190" rx="18" fill="#F5F3EE"/>
+  <path d="M36 155H684" stroke="#D8D2C8" stroke-width="2"/>
+  <g transform="translate(44 26)">
+    <rect x="0" y="10" width="120" height="102" rx="12" fill="#E8E3DA" stroke="#6B665C" stroke-width="2"/>
+    <path d="M22 37h52M22 54h63M22 71h46" stroke="#DA7756" stroke-width="5" stroke-linecap="round"/>
+    <path d="M91 85v24M83 101l8 8 8-8" fill="none" stroke="#DA7756" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="60" y="139" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#1D1B16">DOWNLOAD ZIP</text>
+  </g>
+  <path d="M194 82h56M235 73l15 9-15 9" fill="none" stroke="#DA7756" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(278 26)">
+    <rect x="0" y="10" width="170" height="102" rx="12" fill="#302E29" stroke="#4D4941" stroke-width="2"/>
+    <rect x="16" y="29" width="138" height="14" rx="7" fill="#4D4941"/>
+    <circle cx="28" cy="36" r="4" fill="#DA7756"/>
+    <rect x="16" y="58" width="50" height="32" rx="7" fill="#F5F3EE"/>
+    <path d="M91 63h39M91 74h29M91 85h34" stroke="#A69F92" stroke-width="4" stroke-linecap="round"/>
+    <text x="85" y="139" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#1D1B16">OPEN EXTENSIONS</text>
+  </g>
+  <path d="M478 82h56M519 73l15 9-15 9" fill="none" stroke="#DA7756" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(560 26)">
+    <rect x="0" y="10" width="116" height="102" rx="12" fill="#E8E3DA" stroke="#6B665C" stroke-width="2"/>
+    <rect x="20" y="30" width="77" height="48" rx="6" fill="#F5F3EE" stroke="#B5AEA1" stroke-width="2"/>
+    <rect x="28" y="41" width="39" height="20" rx="4" fill="#302E29"/>
+    <path d="M46 91V70M38 82l8 8 8-8" fill="none" stroke="#DA7756" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="58" y="139" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#1D1B16">DRAG &amp; DROP</text>
+  </g>
+</svg>

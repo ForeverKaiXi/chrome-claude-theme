@@ -1,5 +1,4 @@
-# Local distribution builds and validation notes
-/dist/
+# Validation notes are local; release ZIPs in dist/ are public assets.
 /verification/
 
 # Personal source CSS retains a computer-specific wallpaper URL.

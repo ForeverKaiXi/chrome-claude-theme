@@ -1,40 +1,112 @@
-# Claude-inspired Chrome Theme
+<div align="center">
+  <img src="./assets/hero-banner.svg" alt="Claude-inspired Chrome themes in Paper and Ink variants" width="100%">
+  <br>
+  <p><strong>A quiet Chrome palette for focused browsing.</strong><br>Warm paper, deep ink, and a single terracotta signal.</p>
+  <p>
+    <a href="#install-by-drag-and-drop"><img src="https://img.shields.io/badge/Chrome-Manifest%20V3-DA7756?style=flat-square&logo=googlechrome&logoColor=ffffff" alt="Chrome Manifest V3"></a>
+    <a href="#download-the-themes"><img src="https://img.shields.io/badge/variants-Paper%20%2B%20Ink-1D1B16?style=flat-square" alt="Paper and Ink variants"></a>
+    <a href="#privacy-and-scope"><img src="https://img.shields.io/badge/permissions-none-6B665C?style=flat-square" alt="No permissions"></a>
+  </p>
+</div>
 
-A warm, reading-focused Chrome theme in two variants: **Paper** (light) and **Ink** (dark). The palette uses warm paper, deep brown, and a restrained terracotta accent (`#DA7756`). This is an independent, unofficial project; it is not affiliated with Anthropic or Claude.
+<p align="center">
+  <a href="https://github.com/ForeverKaiXi/chrome-claude-theme/stargazers">Give it a star</a>
+  ·
+  <a href="https://github.com/ForeverKaiXi/chrome-claude-theme/issues">Report an issue</a>
+  ·
+  <a href="demo.html">Open the visual demo</a>
+</p>
 
 ## Preview
 
-These images are captures of the interactive HTML design demo. Chrome renders its own tabs, window controls, and New Tab page, so the installed theme may differ in those details.
+Two restrained variants for the same browser mood: **Paper** for daylight reading and **Ink** for a quieter dark frame. The screenshots come from the included interactive demo; Chrome still owns its native tab strip, window controls, and New Tab behavior.
 
-| Paper | Ink |
-|---|---|
-| ![Paper design demo](demo-paper.png) | ![Ink design demo](demo-ink.png) |
+<table>
+  <tr>
+    <td width="50%"><img src="./demo-paper.png" alt="Paper theme preview"></td>
+    <td width="50%"><img src="./demo-ink.png" alt="Ink theme preview"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Paper</strong> · warm light</td>
+    <td align="center"><strong>Ink</strong> · deep dark</td>
+  </tr>
+</table>
 
-Open [demo.html](demo.html) locally to compare the palettes and the two New Tab concepts. The demo is not an extension and is not installed with either theme.
+<p align="center">
+  <img src="./demo-mobile.png" alt="Responsive mobile preview of the visual demo" width="72%">
+</p>
 
-## Install
+## Download the themes
 
-1. Download this repository and extract it, or clone it.
-2. In Chrome, open `chrome://extensions` and turn on **Developer mode**.
-3. Choose **Load unpacked** and select the [`theme-paper`](theme-paper) or [`theme-ink`](theme-ink) directory.
-4. Open a new window to inspect the frame, active and inactive tabs, toolbar, and New Tab page.
+The current release is <strong>1.0.2</strong>. Each package is a self-contained Chrome theme ZIP with a root-level <code>manifest.json</code>.
 
-Only one Chrome theme can be active in a profile at a time. To switch variants, load the other theme directory. To restore Chrome's original appearance, use **Settings → Appearance → Reset to default**. When editing an installed unpacked theme, click its **Reload** button on `chrome://extensions`.
+| Variant | Mood | Download |
+|:--|:--|:--|
+| <img src="./assets/icon-paper.svg" alt="" width="22"> <strong>Warm Paper</strong> | Light, warm, paper-like | [Download v1.0.2](./dist/warm-paper-chrome-theme-1.0.2.zip) |
+| <img src="./assets/icon-ink.svg" alt="" width="22"> <strong>Warm Ink</strong> | Dark, calm, ink-like | [Download v1.0.2](./dist/warm-ink-chrome-theme-1.0.2.zip) |
 
-## What is included
+Older builds remain available in the [dist archive](./dist) for reproducibility:
+
+<details>
+<summary>Show v1.0.0 and v1.0.1 packages</summary>
+
+| Variant | v1.0.1 | v1.0.0 |
+|:--|:--|:--|
+| Warm Paper | [ZIP](./dist/warm-paper-chrome-theme-1.0.1.zip) | [ZIP](./dist/warm-paper-chrome-theme-1.0.0.zip) |
+| Warm Ink | [ZIP](./dist/warm-ink-chrome-theme-1.0.1.zip) | [ZIP](./dist/warm-ink-chrome-theme-1.0.0.zip) |
+
+</details>
+
+## Install by drag-and-drop
+
+<p align="center">
+  <img src="./assets/drag-to-extensions.svg" alt="Drag a downloaded ZIP to the Chrome Extensions page" width="720">
+</p>
+
+1. Download one of the ZIP files above. The latest Paper and Ink packages are recommended.
+2. Open <code>chrome://extensions</code> in Chrome.
+3. Turn on **Developer mode** in the upper-right corner.
+4. Drag the downloaded <code>.zip</code> file onto the Extensions page.
+5. Open a new tab and choose the theme if Chrome presents a confirmation step.
+
+Only one Chrome theme can be active in a profile at a time. To switch variants, drag the other ZIP onto the same page. If a Chrome build does not accept the ZIP by drag-and-drop, extract it first and use **Load unpacked** to select the folder containing <code>manifest.json</code>.
+
+## What is inside
+
+<table>
+  <tr>
+    <td width="25%" align="center"><img src="./assets/icon-chrome.svg" alt="" width="42"><br><strong>Native frame</strong><br><small>Tabs, toolbar, frame, and New Tab colors.</small></td>
+    <td width="25%" align="center"><img src="./assets/icon-palette.svg" alt="" width="42"><br><strong>Two moods</strong><br><small>Paper light and Ink dark, sharing one accent.</small></td>
+    <td width="25%" align="center"><img src="./assets/icon-drag.svg" alt="" width="42"><br><strong>Simple install</strong><br><small>Download, open Extensions, drag the ZIP.</small></td>
+    <td width="25%" align="center"><img src="./assets/icon-shield.svg" alt="" width="42"><br><strong>No permissions</strong><br><small>Manifest V3 theme-only packages.</small></td>
+  </tr>
+</table>
 
 | Path | Purpose |
-|---|---|
-| [`theme-paper/manifest.json`](theme-paper/manifest.json) | Installable light Chrome theme |
-| [`theme-ink/manifest.json`](theme-ink/manifest.json) | Installable dark Chrome theme |
-| [`demo.html`](demo.html) | Interactive visual preview |
-| [`assets/claude-style.css`](assets/claude-style.css) | Optional Claude-inspired CSS for the separate web UI it was written for |
+|:--|:--|
+| [theme-paper/manifest.json](theme-paper/manifest.json) | Installable light Chrome theme source |
+| [theme-ink/manifest.json](theme-ink/manifest.json) | Installable dark Chrome theme source |
+| [dist/](dist) | Versioned ZIP packages for drag-and-drop installation |
+| [demo.html](demo.html) | Interactive visual preview |
+| [assets/claude-style.css](assets/claude-style.css) | Optional Claude-inspired CSS for the separate web UI it was written for |
 
-The CSS is not part of the Chrome theme. Its wallpaper variable defaults to `none`; if you use that CSS in its target UI, you can set `--cv-wallpaper` to your own image URL. The original selectors target a specific Material UI-based interface and are not a general Chrome stylesheet.
+The CSS is not part of the Chrome theme. Its wallpaper variable defaults to <code>none</code>; if you use it in its target UI, you can set <code>--cv-wallpaper</code> to your own image URL. The selectors target a specific Material UI-based interface and are not a general Chrome stylesheet.
 
-## Limits
+## Star history
 
-Chrome themes can change supported browser colors, including the frame, tabs, toolbar, and New Tab background. They cannot restyle arbitrary websites, replace the favicon of `chrome://settings`, recolor only the Extensions puzzle icon, or fully control the Windows minimize/maximize/close buttons. The `buttons` tint is a hint to Chrome; `toolbar_button_icon` is also set, so the terracotta tint may not visibly affect every icon or state.
+<p align="center">
+  <img src="./assets/star-doodle.svg" alt="Decorative hand-drawn star" width="30">
+</p>
+
+This live chart is generated by [Star History](https://star-history.com/) and updates as the repository receives stars. It is intentionally data-driven rather than a made-up progress graphic.
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ForeverKaiXi/chrome-claude-theme&type=Date)](https://star-history.com/#ForeverKaiXi/chrome-claude-theme&Date)
+
+## Privacy and scope
+
+This is an independent, unofficial project. It is not affiliated with Anthropic or Claude.
+
+Chrome themes can change supported browser colors, including the frame, tabs, toolbar, and New Tab background. They cannot restyle arbitrary websites, replace the favicon of <code>chrome://settings</code>, recolor only the Extensions puzzle icon, or fully control the Windows minimize/maximize/close buttons. The <code>buttons</code> tint is a hint to Chrome; <code>toolbar_button_icon</code> is also set, so the terracotta tint may not visibly affect every icon or state.
 
 This repository does not contain a New Tab override extension. A different extension may still replace your New Tab page with Bing or another site; that behavior is independent of these themes.
 

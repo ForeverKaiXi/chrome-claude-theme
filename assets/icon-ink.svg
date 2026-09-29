@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Ink theme icon">
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#302E29"/>
+  <path d="M39 15c-8 1-14 8-14 16 0 10 8 18 18 18 3 0 5-1 7-2-3 6-9 10-16 10-11 0-20-9-20-20s9-20 20-20c2 0 4 0 5-2z" fill="#F5F3EE"/>
+  <path d="M45 17l2 5 5 1-4 3 1 5-4-3-4 3 1-5-4-3 5-1z" fill="#DA7756"/>
+</svg>
