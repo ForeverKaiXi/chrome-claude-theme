@@ -1,0 +1,13 @@
+# Local distribution builds and validation notes
+/dist/
+/verification/
+
+# Personal source CSS retains a computer-specific wallpaper URL.
+# The portable, publishable copy lives in assets/claude-style.css.
+/claude-style.css
+
+# Local planning notes and OS metadata
+/DESIGN_PLAN.md
+Thumbs.db
+.DS_Store
+Cached Theme.pak

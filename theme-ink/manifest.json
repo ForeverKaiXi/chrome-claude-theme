@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Warm Ink — Chrome Theme",
+  "version": "1.0.2",
+  "description": "A warm ink-inspired dark Chrome theme with restrained terracotta accents.",
+  "theme": {
+    "colors": {
+      "frame": [37, 36, 32],
+      "frame_inactive": [48, 46, 41],
+      "frame_incognito": [23, 22, 20],
+      "frame_incognito_inactive": [15, 14, 13],
+      "background_tab": [58, 55, 49],
+      "background_tab_inactive": [48, 46, 41],
+      "background_tab_incognito": [40, 38, 33],
+      "background_tab_incognito_inactive": [29, 27, 24],
+      "toolbar": [48, 46, 41],
+      "toolbar_text": [238, 234, 226],
+      "toolbar_button_icon": [184, 177, 165],
+      "tab_text": [238, 234, 226],
+      "tab_background_text": [184, 177, 165],
+      "tab_background_text_inactive": [162, 155, 144],
+      "tab_background_text_incognito": [238, 234, 226],
+      "tab_background_text_incognito_inactive": [184, 177, 165],
+      "bookmark_text": [184, 177, 165],
+      "button_background": [58, 55, 49],
+      "omnibox_background": [58, 55, 49],
+      "omnibox_text": [238, 234, 226],
+      "ntp_background": [38, 37, 33],
+      "ntp_text": [238, 234, 226],
+      "ntp_link": [226, 139, 109],
+      "ntp_header": [238, 234, 226],
+      "ntp_section": [48, 46, 41]
+    },
+    "tints": {
+      "buttons": [0.0417, 0.6408, 0.5961]
+    },
+    "properties": {
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Warm Paper — Chrome Theme",
+  "version": "1.0.2",
+  "description": "A warm paper-inspired Chrome theme with restrained terracotta accents.",
+  "theme": {
+    "colors": {
+      "frame": [241, 238, 232],
+      "frame_inactive": [241, 238, 232],
+      "frame_incognito": [72, 67, 59],
+      "frame_incognito_inactive": [48, 46, 41],
+      "background_tab": [234, 230, 222],
+      "background_tab_inactive": [228, 223, 214],
+      "background_tab_incognito": [78, 73, 66],
+      "background_tab_incognito_inactive": [58, 55, 49],
+      "toolbar": [245, 243, 238],
+      "toolbar_text": [29, 27, 22],
+      "toolbar_button_icon": [98, 93, 83],
+      "tab_text": [29, 27, 22],
+      "tab_background_text": [98, 93, 83],
+      "tab_background_text_inactive": [88, 81, 71],
+      "tab_background_text_incognito": [238, 234, 226],
+      "tab_background_text_incognito_inactive": [184, 177, 165],
+      "bookmark_text": [98, 93, 83],
+      "button_background": [241, 238, 232],
+      "omnibox_background": [237, 234, 227],
+      "omnibox_text": [29, 27, 22],
+      "ntp_background": [245, 243, 238],
+      "ntp_text": [29, 27, 22],
+      "ntp_link": [162, 79, 55],
+      "ntp_header": [29, 27, 22],
+      "ntp_section": [237, 234, 227]
+    },
+    "tints": {
+      "buttons": [0.0417, 0.6408, 0.5961]
+    },
+    "properties": {
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
