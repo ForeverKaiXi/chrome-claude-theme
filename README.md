@@ -88,9 +88,8 @@ Only one Chrome theme can be active in a profile at a time. To switch variants, 
 | [theme-ink/manifest.json](theme-ink/manifest.json) | Installable dark Chrome theme source |
 | [dist/](dist) | Versioned ZIP packages for drag-and-drop installation |
 | [demo.html](demo.html) | Interactive visual preview |
-| [assets/claude-style.css](assets/claude-style.css) | Optional Claude-inspired CSS for the separate web UI it was written for |
 
-The CSS is not part of the Chrome theme. Its wallpaper variable defaults to <code>none</code>; if you use it in its target UI, you can set <code>--cv-wallpaper</code> to your own image URL. The selectors target a specific Material UI-based interface and are not a general Chrome stylesheet.
+The theme packages are deliberately small and contain no page scripts or browser permissions.
 
 ## Star history
 
